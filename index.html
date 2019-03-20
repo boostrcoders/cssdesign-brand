@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Tricks</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <a href="index.html" class="brand">Br<span>a</span>nd</a>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- <label for="check">
+        <input type="checkbox" id="check" class="check" />
+        <span class="btn"></span>
+      </label> -->
+      <section class="contact">
+        <form class="contact-form" action="" method="post">
+          <div class="contact-caption">
+            <h3>Get In Touch</h3>
+            <h4>Contact us today, and get reply with in 24 hours!</h4>
+          </div>
+          <div class="contact-content">
+            <div class="contact-left">
+              <input
+                placeholder="Your name"
+                type="text"
+                tabindex="1"
+                required
+                autofocus
+              />
+
+              <input
+                placeholder="Your Email Address"
+                type="email"
+                tabindex="2"
+                required
+              />
+
+              <input
+                placeholder="Your Phone Number"
+                type="tel"
+                tabindex="3"
+                required
+              />
+            </div>
+            <!-- <div>
+            <input
+              placeholder="Your Web Site starts with http://"
+              type="url"
+              tabindex="4"
+              required
+            />
+          </div> -->
+            <div class="contact-right">
+              <textarea
+                placeholder="Type your Message Here...."
+                tabindex="5"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <div>
+            <button
+              name="submit"
+              type="submit"
+              id="contact-submit"
+              data-submit="...Sending"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      Footer
+    </footer>
+  </body>
+</html>
